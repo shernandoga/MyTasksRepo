@@ -55,5 +55,5 @@ jobs:
           mkdir -p target
           mv jar-artifact/* target/
 
-          docker build -t sergiohas/mytasks:latest .
-          docker push sergiohas/mytasks:latest
+          docker build -t sergiohas/dar_bootcamp:latest .
+          docker push sergiohas/dar_bootcamp:latest
